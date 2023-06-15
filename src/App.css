@@ -1,0 +1,401 @@
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+  background: linear-gradient(135deg, rgba(80, 77, 77, 0.318) 0%, #d5b4b4 55%, rgb(209, 204, 204) 50%, white 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.header_main {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(10,87,154);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_div {
+  padding: 10px;
+}
+
+.nav_main {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-size: 20px;
+  font-family: Inter;
+}
+
+.nav_main a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+.nav_main li a:hover {
+  color: #383737;
+}
+
+.nav_main li {
+  padding: 10px;
+  color: white;
+}
+
+.nav_main li:not(:last-child)::after {
+  content: "|";
+  margin-left: 5px;
+  color: #fff;
+}
+
+.flag_div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.nepal_flag_image {
+  max-width: 75px;
+  max-height: 75px;
+  margin-right: 40px;
+}
+
+.flag_div a {
+  font-size: 20px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.flag_div a:hover {
+  color: #4b3a3a;
+}
+
+.logo_image {
+  max-width: 80px;
+  max-height: 80px;
+  margin-left: 50px;
+}
+
+.small_div {
+  height: 4px;
+  width: 100%;
+  background-color: #f00;
+  bottom: 0;
+}
+
+.anim_text {
+  margin-top: 200px;
+  margin-left: 230px;
+  position: absolute;
+  width: 707px;
+  height: 289px;
+  top: 0;
+  left: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 90px;
+  background: linear-gradient(101.45deg, #cc3434 22.07%, #00208C 57.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.animated_image {
+  float: right;
+  margin-top: 100px;
+  margin-right: 200px;
+  width: 600px;
+  height: 600px;
+}
+
+.content_div {
+  top: 0;
+}
+
+.content2 {
+  display: flex;
+}
+
+.head_div {
+  margin-right: 35px;
+}
+
+.contents {
+  position: absolute;
+  width: 900px;
+  height: 416px;
+  left: 180px;
+  top: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer_main {
+  height: 50px;
+  display: flex;
+  background-color: #f64545;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  font-size: 20px;
+  color: #fdfdfd;
+}
+
+.nav_main .active,
+.flag_div .active {
+  color: #413d3d;
+}
+
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.login-form {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width: 350px;
+  border-radius: 5%;
+  background-color: #234f74;
+}
+
+.login-form h2 {
+  margin-top: 50px;
+}
+
+.login-form input {
+  margin: 0.5rem 0;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.login-form label {
+  text-align: left;
+  margin-right: 120px;
+  padding: 0.25rem 0;
+}
+
+.login-form button {
+  height: 30px;
+  width: 60px;
+  border-radius: 10%;
+  background-color: #fff;
+  border: none;
+}
+
+.link-btn {
+  background: none;
+  color: #fff;
+  text-decoration: underline;
+}
+.about_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  min-height: calc(100vh - 110px); /* Subtract the height of the header */
+}
+
+
+.para {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding: 0 50px;
+}
+
+.about_main h1 {
+  font-size: 60px;
+  color: #305b8d;
+  margin: 0;
+  padding-top: 10px;
+  margin-bottom: 60px;
+}
+
+.para1,
+.para2 {
+  flex-basis: 50%;
+  font-size: 23px;
+  text-align: center;
+  bottom: 0;
+  width: 700px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.para1 {
+  text-align: left;
+  margin-right: 120px;
+  margin-left: 35px;
+  border-radius: 3%;
+}
+
+.para2 {
+  text-align: left;
+  margin-left: 120px;
+  margin-right: 35px;
+  border-radius: 3%;
+}
+
+.about_image {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_image_1 {
+  margin-top: 0px;
+  width: 100%;
+  max-width: 1498px;
+  height: auto;
+  height: 273px;
+}
+.complain_main_div{
+  display: flex;
+  margin: 0;
+  top: 0;
+  background-color: white;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#complainform{
+  position: relative;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+#formheading{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-bottom: none;
+}
+
+#myform{
+  background-color: rgb(10, 87, 154);
+  width: 550px;
+  height: 450px;
+  left: 500px;
+  padding: 20px;
+  font-size: 25px;
+  margin-right: 10px;
+  justify-content: center;
+  border-radius: 5%;
+}
+
+.text{
+  margin-top: 50px;
+  margin-left: 25px;
+  position: relative;
+  padding-right: 5px;
+}
+.text1{
+  position: relative;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  left: 200px;
+}
+.text2{
+  position: relative;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  left: 250px;
+}
+#Firstname{
+  margin-left: 25px;
+  position: relative;
+  font-size: 18px;
+  height: 25px;
+  width: 140px;
+  padding-right: 5px;
+  border-width: 1.5px;
+}
+#Lastname{
+  position: relative;
+  left: 165px;
+  height: 25px;
+  width: 140px;
+  margin-bottom: 12px;
+  border-width: 1.5px;
+}
+#Email{
+  margin-left: 25px;
+  position: relative;
+  height: 25px;
+  width: 140px;
+  padding-right: 5px;
+  margin-bottom: 12px;
+  border-width: 1.5px;
+}
+#Phoneno{
+  position: relative;
+  left: 165px;
+  height: 25px;
+  width: 140px;
+  margin-bottom: 12px;
+  border-width: 1.5px;
+}
+.text3{
+  position: relative;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  left: 194px;
+}
+.options{
+  width: 120px;
+  height: 29px;
+  position: relative;
+  left: 12px;
+  top: 30px;
+  font-size: 20px;
+
+}
+#Complaint{
+  margin-left: 25px;
+  font-size: 15px;
+  position: relative;
+  height: 100px;
+  width: 200px;
+  padding-right: 5px;
+  margin-bottom: 12px;
+  border-width: 1.5px;
+}
+#myform button{
+  position: relative;
+  left: 210px;
+  top: 15px;
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+  color: aliceblue;
+  background-color: #f30121;
+  border-color: aliceblue;
+}

@@ -1,0 +1,273 @@
+.contact_main_div {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(254, 247, 247);
+  text-align: center;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.para3 {
+  margin-left: auto;
+  text-align: left;
+  background-color: #ffcccc;
+  height: 400px;
+  width: 700px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 390px;
+  margin-top: 40px;
+}
+
+.para3 p {
+  font-size: 24px;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.image1_main {
+  float: left;
+  height: 200px;
+  width: 200px;
+}
+
+.image1_subdiv {
+  height: 830px;
+  width: 830px;
+  margin-top: 0px;
+}
+
+.anim {
+  display: flex;
+  margin-bottom: 800px;
+  margin-right: 250px;
+}
+
+.anim .anim1div {
+  height: 500px;
+  width: 500px;
+}
+
+.contact_sub_div {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.contact_sub_div h1 {
+  margin-left: 330px;
+  margin-top: 120px;
+  width: 220px;
+  height: 60px;
+  border-radius: 2%;
+  background-color: rgb(237, 90, 90);
+}
+
+.header_main1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #305b8d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_div1 {
+  padding: 10px;
+}
+
+.nav_main1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-size: 20px;
+  font-family: Inter;
+  color: white;
+}
+
+.nav_main1 a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+.nav_main1 li:hover a {
+  color: rgb(72, 67, 67);
+}
+
+.nav_main1 li {
+  padding: 10px;
+  color: white;
+}
+
+.nav_main1 li .active-link1 {
+  color: #2d2525;
+}
+
+.nav_main1 li:not(:last-child)::after {
+  content: "|";
+  margin-left: 5px;
+  color: #fff;
+}
+
+.flag_div1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.nepal_flag_image1 {
+  max-width: 75px;
+  max-height: 75px;
+  margin-right: 40px;
+}
+
+.flag_div1 a {
+  font-size: 20px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.flag_div1 a:hover {
+  color: #2d2525;
+}
+
+.logo_image1 {
+  max-width: 80px;
+  max-height: 80px;
+  margin-left: 50px;
+}
+
+.small_div1 {
+  height: 4px;
+  width: 100%;
+  background-color: #f00;
+}
+
+.flag_div1 button {
+  height: 30px;
+  width: 80px;
+  font-size: 21px;
+  background: none;
+  border: none;
+  color: rgb(250, 4, 4);
+}
+
+.success_main {
+  display: flex;
+  margin: 0;
+  top: 0;
+  background-color: white;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.success_subdiv {
+  height: 400px;
+  width: 400px;
+  background-color: #8df8ad;
+  margin-bottom: 200px;
+  display: flex;
+  border-radius: 5%;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.success_subdiv h1 {
+  margin-bottom: 30px;
+}
+
+.success_subdiv .success_subdiv1 p {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.status_main {
+  display: flex;
+  margin: 0;
+  top: 0;
+  background-color: white;
+  height: 100vh;
+  justify-content: center;
+}
+
+.status_background {
+  position: initial;
+  padding-top: 0px;
+  top: 0px;
+  height: 100vh;
+}
+
+.search_div {
+  position: relative;
+  padding: 10px;
+  margin-right: 10px;
+  flex-direction: column; /* Added */
+  align-items: center; /* Added */
+  text-align: center; /* Added */
+}
+
+.message-container {
+  margin-top: 10px;
+}
+
+.search_div input {
+  margin-right: 10px;
+}
+
+.search_div label {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+#ticketno {
+  height: 20px;
+  font-size: 18px;
+}
+
+#email {
+  height: 20px;
+  font-size: 18px;
+}
+
+#searchbutton {
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px; /* Added */
+}
+
+#statustable {
+  position: relative;
+  border-collapse: collapse;
+  margin-top: 20px; /* Added */
+  text-align: center; /* Added */
+  width: 100%; /* Added */
+}
+
+#statustable th {
+  position: relative;
+  font-size: 20px;
+  border: solid;
+  text-align: center;
+  padding: 10px; /* Added */
+}
+
+#statustable td {
+  position: relative;
+  border: solid;
+  text-align: center;
+  padding: 10px; /* Added */
+}
